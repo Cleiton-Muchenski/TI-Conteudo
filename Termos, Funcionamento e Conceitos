@@ -8,7 +8,7 @@ o caminho mais curto).
 
 
 
-TIPOS DE REDE / INFORMAÇÕES EXTRAS ----------------------------------------------------------------------//---------------------------------------------------------------------------------------------------
+TIPOS DE REDE / INFORMAÇÕES GERAIS ----------------------------------------------------------------------//---------------------------------------------------------------------------------------------------
 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________
 Equipamentos > SOHO                // (Small Office Home Office)    
@@ -18,13 +18,12 @@ DNS                                // (Domnain Name System)
 GATEAWAY1                          // É o proprio roteador
 TCP/IP                             // Protocolo de comunicação de internet utilizado na internet e em muitas redes locais, que devide dados em pacotes e os transmite de forma eficiente
 _____________________________________________________________________________________________________________________________________________________________________________________________________________
+TOPOLOGIA DE REDE 
 
-TOPOLOGIA DE REDE ---------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------
-
-ESTRELA                            // Todas estão conectadas a um ponto unico por exemplo à um rack com SWITCH ou HUB
-ANEL                               // Todas maquinas estão conectada uma a outra e depende exclusivamente uma da outra para funcionarem corretamente por exemplo PC1 (Conectado)> PC2 (Conectado)> PC3 (Desligado)X PC4 (Desconectado)
-MALHA                              // Semelhante ao ANEL porem dessa vêz uma maquina não depedente apenas de 1 maquina mas sim varias, imagine uma cruz o centro é o PC1 e todas extremidades da cruz são outros computadores se o PC da extremidade esquerda desligar ainda teria o PC da extremidade superior, infeior e direita
-
+ESTRELA          // Todas estão conectadas a um ponto unico por exemplo à um rack com SWITCH ou HUB
+ANEL             // Todas maquinas estão conectada uma a outra e depende exclusivamente uma da outra para funcionarem corretamente por exemplo PC1 (Conectado)> PC2 (Conectado)> PC3 (Desligado)X PC4 (Desconectado)
+MALHA            // Semelhante ao ANEL porem dessa vêz uma maquina não depedente apenas de 1 maquina mas sim varias, imagine uma cruz o centro é o PC1 e todas extremidades da cruz são outros computadores se o PC da extremidade esquerda desligar ainda teria o PC da extremidade superior, infeior e direita
+_____________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 BIBLIOTECA DE TERMOS ------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------
