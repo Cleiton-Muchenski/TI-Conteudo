@@ -1,30 +1,43 @@
 Como a Internet Funciona? -------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------
 
 Os dispositivos como Celulares, Computadores, Lampadas ou tudo que possui um IP (Esse IP é considerado Invalido pois é apenas usado para diferenciar quem é quem entre Dispositivos e Roteador e se comunicar e trocar pacotes com o roteador).
-usa seu IP para
+usa seu IP invalido para se conectar ao roteador. O roteador registra esse IP invalido como uma forma de registro e atribui um IP valido para uso na internet o roteador usara esse IP valido para comunicação de qualquer dispositivo da rede
+independente do numero. O roteador ira solicitar resposta de um site mandando um WARP para os gateway mais proximos e escolhendo o com menor latencia para evitar trafego, ele ira repetir esse processo a cada gateway até finalmente chegar no local final.
+Cada salto de um gateawayA para gateawayB é chamado de Hop, mesmo com getaways ainda sim pode ser que sua latencia final nao seja a melhor possivel até porque isso pode depender de varios fatores (nem sempre o servidor mais proximo vai te mandar para
+o caminho mais curto).
+
+
 
 TIPOS DE REDE / INFORMAÇÕES EXTRAS ----------------------------------------------------------------------//---------------------------------------------------------------------------------------------------
 
-________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________________________________________________
 Equipamentos > SOHO                // (Small Office Home Office)    
 NAT                                // (Net Adress Translator) IP corresponde ao indereço do roteador que sera o responsavel por todos IP Invalidos/Dispositivos
 DHCP                               // Dynamic Host Configuration Protocol) é um protocolo de rede que atribui automaticamente endereços IP a dispositivos que estão ligados a uma rede. 
 DNS                                // (Domnain Name System) 
 GATEAWAY1                          // É o proprio roteador
-TCP/IP                                // Protocolo de comunicação de internet utilizado na internet e em muitas redes locais, que devide dados em pacotes e os transmite de forma eficiente
-________________________________________________________________________________________________________________________
+TCP/IP                             // Protocolo de comunicação de internet utilizado na internet e em muitas redes locais, que devide dados em pacotes e os transmite de forma eficiente
+_____________________________________________________________________________________________________________________________________________________________________________________________________________
+
+TOPOLOGIA DE REDE ---------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------
+
+ESTRELA                            // Todas estão conectadas a um ponto unico por exemplo à um rack com SWITCH ou HUB
+ANEL                               // Todas maquinas estão conectada uma a outra e depende exclusivamente uma da outra para funcionarem corretamente por exemplo PC1 (Conectado)> PC2 (Conectado)> PC3 (Desligado)X PC4 (Desconectado)
+MALHA                              // Semelhante ao ANEL porem dessa vêz uma maquina não depedente apenas de 1 maquina mas sim varias, imagine uma cruz o centro é o PC1 e todas extremidades da cruz são outros computadores se o PC da extremidade esquerda desligar ainda teria o PC da extremidade superior, infeior e direita
 
 
 
 BIBLIOTECA DE TERMOS ------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------
 
+DNS                  // (Domain Name System) Usa um nome para direcionamento de um IP, exemplo (www.google.com.br seria um nome de direcionamento ao ip 2800:3f0:4001:81c::2003)
 FTP                  // File Transfer Protocol
 GETAWAY              // São pontos como servidores onde se conectam redes, os getaway são os reponsaveus por dizer onde nosso Endereço de IP esta tentando encontrar
 Hop                  // Hop é cada pulo de rede quando uma informação sai de um GETAWAY para outro
 HUB                  // HUB é um dispositivo de direcionamento de rede e pacotes o lado negativo do HUB é que ele sai distribuindo pacotes independente se esta enviando pra quem esta aguardando aquele pacote
 IX                   // IX ou (Internet Exchange) é um meio de conectar multiplas redes de forma mais otimizada evitando trafegar por rede terceiras ou redes mais extensas. (Exemplo todos estados conectados ao IX de SP da qual transita pacotes para fora)
 LAN                  // (Local Area Network) É a rede local ou seja dispositivos conectados ao roteador ou dispositivos conectados entre si, e não tecnicamente interligadas
-MAN                  // (Metropolitan Area Network) Rede de região metropolitana
+MAN                  // (Metropolitan Area Network) Rede de região metropolitana, ela utiliza um cabo direto para conectar entre outras empresas/unidades se tornando cara e inviavel.
+SMTP                 // (Simple Mail Transfer Protocol)
 SWITCH               // Assim como HUB o SWITCH também é um dispositivo direcionador de rede/pacote porem a diferença é que o SWITCH ja sabe pra quem é pra enviar.
 TCP/IP               // Protocolo de comunicação de internet utilizado na internet e em muitas redes locais, que devide dados em pacotes e os transmite de forma eficiente
 WAN                  // (Wide Area Network) Já é a intert ou seja uma rede diretamente ligada a Internet
