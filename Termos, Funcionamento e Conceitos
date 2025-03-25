@@ -5,22 +5,26 @@ usa seu IP para
 
 TIPOS DE REDE -------------------------------------------------------------------------------------------//---------------------------------------------------------------------------------------------------
 
-Equipamentos > SOHO > (Small Office Home Office) {
-DNS > (Domain Name System)
-DHCP > ()
-}
+________________________________________________________________________________________________________________________
+Equipamentos > SOHO                // (Small Office Home Office)    
+NAT                                // (Net Adress Translator) IP corresponde ao indereço do roteador que sera o responsavel por todos IP Invalidos/Dispositivos
+DHCP                               //Dynamic Host Configuration Protocol) é um protocolo de rede que atribui automaticamente endereços IP a dispositivos que estão ligados a uma rede. 
+DNS                                // (Domnain Name System)                                                                                                                
+                                                                                                               
+________________________________________________________________________________________________________________________
+
 
 BIBLIOTECA DE TERMOS ------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------
 
 GETAWAY              // São pontos como servidores onde se conectam redes, os getaway são os reponsaveus por dizer onde nosso Endereço de IP esta tentando encontrar
 Hop                  // Hop é cada pulo de rede quando uma informação sai de um GETAWAY para outro
 HUB                  // HUB é um dispositivo de direcionamento de rede e pacotes o lado negativo do HUB é que ele sai distribuindo pacotes independente se esta enviando pra quem esta aguardando aquele pacote
-IX                   // IX ou Internet Exchange é um meio de conectar multiplas redes de forma mais otimizada evitando trafegar por rede terceiras ou redes mais extensas.
+IX                   // IX ou (Internet Exchange) é um meio de conectar multiplas redes de forma mais otimizada evitando trafegar por rede terceiras ou redes mais extensas. (Exemplo todos estados conectados ao IX de SP da qual transita pacotes para fora)
 LAN                  // É a rede local ou seja dispositivos conectados ao roteador ou dispositivos conectados entre si, e não tecnicamente interligadas
 SWITCH               // Assim como HUB o SWITCH também é um dispositivo direcionador de rede/pacote porem a diferença é que o SWITCH ja sabe pra quem é pra enviar.
 WAN                  // Já é a intert ou seja uma rede diretamente ligada a Internet
 WARP                 // É um pacote vazio que apenas sera usado para medir o PING/Latencia que uma rede leva para receber resposta da outra
-PING                 // É um Pacote
+PING                 // É a latencia de uma ação/comunicação entre local e wan
 
 
 
