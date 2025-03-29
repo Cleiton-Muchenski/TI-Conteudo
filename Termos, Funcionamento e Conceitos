@@ -18,7 +18,9 @@ DNS                                // (Domnain Name System)
 GATEAWAY1                          // É o proprio roteador
 TCP/IP                             // Protocolo de comunicação de internet utilizado na internet e em muitas redes locais, que devide dados em pacotes e os transmite de forma eficiente
 _____________________________________________________________________________________________________________________________________________________________________________________________________________
-TOPOLOGIA DE REDE 
+TOPOLOGIA DE REDE   // É a forma que os dispositivos estão conectados na rede
+
+TIPOS DE TOPOLOGIA ------- ! --------
 
 ESTRELA          // Todas estão conectadas a um ponto unico por exemplo à um rack com SWITCH ou HUB
 ANEL             // Todas maquinas estão conectada uma a outra e depende exclusivamente uma da outra para funcionarem corretamente por exemplo PC1 (Conectado)> PC2 (Conectado)> PC3 (Desligado)X PC4 (Desconectado)
