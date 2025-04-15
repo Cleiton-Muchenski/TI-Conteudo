@@ -8,11 +8,11 @@ Segurança da Informação no mundo do TI trabalha com LGPD
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________
 Pilares da Segurança da Informação --------------------------------------------------------------------------//-------------------------------------------------------------------------------------------------------
 
-1° Confidenciabilidade     // Garantia de que apenas usuários autorizados tenham acesso a informações sensíveis.
-2° Integridade             // Garantia de que os dados não sejam alterados ou corrompidos por usuários não autorizados.
-3° Disponibilidade         // Garantia de que os recursos de tecnologia da informação estejam disponíveis quando necessários.
-4° Autenticidade           // Garantia de que a identidade de usuários e recursos seja confirmada de forma confiável.
-5° Não-Repúdio             // Garantia de que as partes envolvidas em uma comunicação ou transação não sejam interferidas por terceiros.
+1° Confidenciabilidade                            // Garantia de que apenas usuários autorizados tenham acesso a informações sensíveis.
+2° Integridade                                    // Garantia de que os dados não sejam alterados ou corrompidos por usuários não autorizados.
+3° Disponibilidade                                // Garantia de que os recursos de tecnologia da informação estejam disponíveis quando necessários.
+4° Autenticidade                                  // Garantia de que a identidade de usuários e recursos seja confirmada de forma confiável.
+5° Não-Repúdio                                    // Garantia de que as partes envolvidas em uma comunicação ou transação não sejam interferidas por terceiros.
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________
 Meios de Aplicabilidade da Segurança e Auditoria ------------------------------------------------------------//-------------------------------------------------------------------------------------------------------
 
@@ -22,21 +22,29 @@ Meios de Aplicabilidade da Segurança e Auditoria ------------------------------
 * Monitoramento de Atividades                     // Acompanhamento contínuo das atividades dos usuários e sistemas para identificar comportamentos suspeitos ou violações de segurança.
 * Auditorias Regulares                            // Avaliação periódica dos controles de segurança e práticas de conformidade para garantir a efícacia e conformidade com "Políticas de Segurança".
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________
-Vulnerabilidade           // É quando um problema já é reconhecido e necessita de atenção para ser previnido.
-Risco                     // Risco é um problema possivel que ainda deve ser estudado, as vezes é uma vunerabilidade que não existe ou que possa existir.
-Ameaça                    // É causada pelos dois termos a cima.
+Vulnerabilidade                                   // É quando um problema já é reconhecido e necessita de atenção para ser previnido.
+Risco                                             // Risco é um problema possivel que ainda deve ser estudado, as vezes é uma vunerabilidade que não existe ou que possa existir.
+Ameaça                                            // É causada pelos dois termos a cima.
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________
 Ataques de Segurança ----------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------
 
-Ataque Passivo            // Os ataques passivos são aqueles que o invasor tenta obter informações ou dados sem alterar o mecanismo de proteção 
-Ataque Passivo            // Os ataques passivos são aqueles que o invasor tenta obter informações ou dados alterando o mecanismo de proteção que ocasiona até queda nos serviços
+Ataque Passivo               // Os ataques passivos são aqueles que o invasor tenta obter informações ou dados sem alterar o mecanismo de proteção 
+Ataque Passivo               // Os ataques passivos são aqueles que o invasor tenta obter informações ou dados alterando o mecanismo de proteção que ocasiona até queda nos serviços
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+Prevenção aos Ataques ---------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------
+1° Atualização de Software e Patching        // Manter todos os sistemas operacionais, aplicativos e dispositivos atualizados com as últimas correções de segurança.
+2° Firewalls e Segurança de Rede             // Implementar firewalls e outras soluções de segurança para controlar o tráfego de entrada e saída, filtrar pacotes maliciosos e proteger contra (DoS) e intrusos.
+3° Criptografia de Dados                     // Utilizar Criptografia  para proteger dados sensíveis em trânsito e em repouso, garantindo  que mesmo se os dados forem interceptados, eles permaneçam ilegíveis.
+4° Controles de Acesso                       // Implementar políticas de controle de acesso que limitem o acesso aos recursos de informações apenas a usuários autorizados, utilizando autenticação multifotorial.
+5° Conscientização e Treinamento             // Educar os funcionários sobre práticas seguras de computação e conscientizá-los sobre ameaças cibernéticas comuns.
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________
 BIBLIOTECA DE TERMOS ----------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------
 
 LGPD            // Leis Gerais de Proteção de Dados
 CID             // Tríade CID 3 Pontes da Segurança da Informação
 SOC             // Security Operations Center (Monitoramento de Atividades) 
-0DAY         // Um exploit de dia zero (0day) é um ataque cibernético que explora uma vulnerabilidade de software desconhecida pelos fornecedores ou empresas de segurança. 
+0DAY            // Um exploit de dia zero (0day) é um ataque cibernético que explora uma vulnerabilidade de software desconhecida pelos fornecedores ou empresas de segurança. 
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 
