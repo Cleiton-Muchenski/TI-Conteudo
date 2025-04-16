@@ -31,12 +31,18 @@ Ataques de Segurança ----------------------------------------------------------
 Ataque Passivo               // Os ataques passivos são aqueles que o invasor tenta obter informações ou dados sem alterar o mecanismo de proteção 
 Ataque Passivo               // Os ataques passivos são aqueles que o invasor tenta obter informações ou dados alterando o mecanismo de proteção que ocasiona até queda nos serviços
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________
-Prevenção aos Ataques ---------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------
-1° Atualização de Software e Patching        // Manter todos os sistemas operacionais, aplicativos e dispositivos atualizados com as últimas correções de segurança.
-2° Firewalls e Segurança de Rede             // Implementar firewalls e outras soluções de segurança para controlar o tráfego de entrada e saída, filtrar pacotes maliciosos e proteger contra (DoS) e intrusos.
-3° Criptografia de Dados                     // Utilizar Criptografia  para proteger dados sensíveis em trânsito e em repouso, garantindo  que mesmo se os dados forem interceptados, eles permaneçam ilegíveis.
-4° Controles de Acesso                       // Implementar políticas de controle de acesso que limitem o acesso aos recursos de informações apenas a usuários autorizados, utilizando autenticação multifotorial.
-5° Conscientização e Treinamento             // Educar os funcionários sobre práticas seguras de computação e conscientizá-los sobre ameaças cibernéticas comuns.
+Prevenção aos Ataques à Segurança ---------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------
+
+1°  Atualização de Software e Patching        // Manter todos os sistemas operacionais, aplicativos e dispositivos atualizados com as últimas correções de segurança.
+2°  Firewalls e Segurança de Rede             // Implementar firewalls e outras soluções de segurança para controlar o tráfego de entrada e saída, filtrar pacotes maliciosos e proteger contra (DoS) e intrusos.
+3°  Criptografia de Dados                     // Utilizar Criptografia  para proteger dados sensíveis em trânsito e em repouso, garantindo  que mesmo se os dados forem interceptados, eles permaneçam ilegíveis.
+4°  Controles de Acesso                       // Implementar políticas de controle de acesso que limitem o acesso aos recursos de informações apenas a usuários autorizados, utilizando autenticação multifotorial.
+5°  Conscientização e Treinamento             // Educar os funcionários sobre práticas seguras de computação e conscientizá-los sobre ameaças cibernéticas comuns.
+6°  Backup Regular de Dados                   // Realizar backups regulares dos dados importantes e armazená-los de forma segura, preferencialmente em locais off-site.
+7°  Monitoramente e Detecção de Ameaças       // Implementar sistema de monitoramento de segurança e análise de registros (SIEM) para detectar e responder rapidamente a atividades suspeitas ou violações.
+8°  Política de Segurança                     // Desenvolver e implementar políticas  de segurança abrangentes que abordem aspectos como uso aceitável, senha forte, criptografia, dispositivos móveis e etc.
+9°  Gestão de Vulnerabilidades                // Realizar avaliações de vulnerabilidade regulares e testes de penetração para identificar e remediar proativamente falhas de segurança em sistemas.
+10° Reposta a Incidentes                      // Estabelecer um plano de resposta a incidentes detalhados e testá-lo regularmente para garantir uma resposta eficaz, minimizando o impacto.
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________
 BIBLIOTECA DE TERMOS ----------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------
 
@@ -44,6 +50,8 @@ LGPD            // Leis Gerais de Proteção de Dados
 CID             // Tríade CID 3 Pontes da Segurança da Informação
 SOC             // Security Operations Center (Monitoramento de Atividades) 
 0DAY            // Um exploit de dia zero (0day) é um ataque cibernético que explora uma vulnerabilidade de software desconhecida pelos fornecedores ou empresas de segurança. 
+FITA-LTO        // Uma fita usada para armazenamento de Backup
+SIEM            // (Security Information and Event Management) é uma solução de segurança que ajuda a identificar e responder a ameaças
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
