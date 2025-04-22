@@ -44,6 +44,39 @@ Prevenção aos Ataques à Segurança ------------------------------------------
 9°  Gestão de Vulnerabilidades                // Realizar avaliações de vulnerabilidade regulares e testes de penetração para identificar e remediar proativamente falhas de segurança em sistemas.
 10° Reposta a Incidentes                      // Estabelecer um plano de resposta a incidentes detalhados e testá-lo regularmente para garantir uma resposta eficaz, minimizando o impacto.
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________
+Backup ------------------------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------
+* O backup é essencial para garantir a disponibilidade e a integridade dos dados, oferecendo uma cópia de segurança que pode ser restaurada em caso de perda de dados devido a falhas de hardware
+  ataque cibernéticos, desastres naturais ou erro humano
+
+* Além de proteger contra perda de dados, o backup é crucial para continuidade dos negócios, permitindo que as organizações retomem as operações rapidamente após um incidente de segurança ou 
+  uma falha de sistema
+
+* Um backup é uma copia dos dados originais que é armazenada em um local seguro e separado do sistema principal. Ele serve como um salvaguarda contra perda de dados
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 BIBLIOTECA DE TERMOS ----------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------
 
 LGPD            // Leis Gerais de Proteção de Dados
@@ -52,6 +85,8 @@ SOC             // Security Operations Center (Monitoramento de Atividades)
 0DAY            // Um exploit de dia zero (0day) é um ataque cibernético que explora uma vulnerabilidade de software desconhecida pelos fornecedores ou empresas de segurança. 
 FITA-LTO        // Uma fita usada para armazenamento de Backup
 SIEM            // (Security Information and Event Management) é uma solução de segurança que ajuda a identificar e responder a ameaças
+PAW             // (Protected Acess Workstation) uma maquina isolada da rede que em caso de necessidade de acesso ficara seguro de invasões
+DEDUP           // (Deduplication) é um método de compactação de bits, basicamente o sistema lê o arquivo e bits e cria um dicionario, e após isso nesse dicionario esta escrito onde cada objeto do dicionario esta posicionado usando HEX.
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
