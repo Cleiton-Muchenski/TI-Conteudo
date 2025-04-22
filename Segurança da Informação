@@ -53,6 +53,18 @@ Backup -------------------------------------------------------------------------
 
 * Um backup é uma copia dos dados originais que é armazenada em um local seguro e separado do sistema principal. Ele serve como um salvaguarda contra perda de dados
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________
+Restore -----------------------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------
+* Restore é o processo de recuperar dados a partir de um backup para restaurar o sistema para um estado anterior. Quando ocorre uma perda de dado ou corrupção.
+ o restore permite que os dados sejam recuperados rapidamente, minimizando o tempo de inatividade e o impacto nos negócios.
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+Estrategias de Backup ---------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------
+
+* BACKUP COMPLETO     // Obtem o Arquivo e salva o mesmo completo, é uma forma custosa por salvar o mesmo arquivo com o valor bruto diversas vezes
+* BACKUP DIFERENCIAL  // Ele pega todo o arquivo completo, e no proximo backup ele vai comparar com o backup anteriorer e apenas os arquivos novos ou modificados serão incrementados.
+* BACKUP INCREMENTAL  // Ele pega todo o arquivo completo, e no proximo backup ele vai comparar com os backups anteriores e apenas os arquivos novos ou modificados serão incrementados ou atualizados.
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 
 
 
