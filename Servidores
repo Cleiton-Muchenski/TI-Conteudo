@@ -1,1 +1,48 @@
-server
+Servidores ------------------------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------------
+* Servidores são computadores especializados em fornecer serviços, recursos ou dados para outros dispositivos ou computadores em uma rede. Eles são projetados para lidar com solicitações de clientes e fornecer serviços 
+  específicos, como hospedagem de sites, armazenamento de arquivos, envio de e-mails, processamemento de dados, entre outros.
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Tipos de Servidor -----------------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------------
+1° Servidor Web                  // Resposável por hospedar sites e aplicativos web, respondendo a solicitações HTTP de clientes
+2° Servidor de Banco de Dados    // Armazenam e gerenciam dados de maneira organizada, permitindo o acesso e a manipulação eficiente desses dados por outros sistemas
+3° Servidor de E-Mail            // Gerenciam o envio, recebimento e armazenamento de e-mails.
+4° Servidores de Arquivos        // Armazenam e gerenciam arquivos compartilhados, permitindo que vários usuários acessem e modifique os mesmos arquivos em uma rede
+5° Servidores de Aplicativos     // Fornecem uma plataforma para executar e gerenciar aplicativos de software em uma rede.
+6° Servidor de Jogos             // Responsável por gerenciar e hospedar redes de serviço de jogos online.
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Sistemas Operacionais de Servidores -----------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------------
+* Linux é um dos sistemas operacionais mais populares para servidores devido à sua estabilidade, segurança e flexibilidade. Distribuições populares incluem Ubuntu Server, CentOS, Debian e Red Hat Enterprise Linux (RHEL).
+   O Linux é conhecido por sua ampla gama de recursos, suporte robusto à linha de comando e capacidade de ser altamente personalizável para atender às necessidades específicas de um servidor.
+
+* Windows Server é desenvolvido pela Microsoft, o WIndows Server é amplamente utilizado em ambientes corporativos e é conhecido por sua integração com outras tecnologias da Microsoft, como Active Directory, Exchange Server e
+  SQL Server. Ele oferece uma interface gráfica de usuários familiar para gerenciamento, bem como suporte para uma ampla variedade de aplicativos e serviços.
+
+* Unix é uma família de sistemas operacionais que inclui variantes como FreeBSD, OpenBSD, NetBSD e macOS (Baseado no Darwin, uma versão do Unix). Unix é conhecido por sua estabilidade, desempenho e robustez, sendo
+  frequentemente  utilizado em servidores de alto desempenho e ambientes de missão crítica.
+
+* FreeBSD é uma variante do Unix, o FreeBSD é conhecido por sua confiabilidade e desempenho, sendo frequentemente usado em servidores de rede, provedores de serviços de Internet e em sistemas de armazenamento em rede (NAS).
+
+* VMware ESXi embora não seja um sistema operacional tradicional, o VMware ESXi é uma plataforma de virtualização que permite executar múltiplos sistemas operacionais e aplicativos em um punico servidor físico. Ele é amplamente
+  utilizados em ambientes de virtualização de data centers para consolidar recursos, aumentar a eficiência e simplificar a gestão de servidores.
+
+Raid de Servidor ------------------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------------
+ * RAID (Redundant Array of Independent Disks) é uma técnica que combina múltiplos discos para melhor o desempenho e a resiliencia do armazenamento. As diferentes configurações de RAID oferecem níveis variados de proteção de dados
+ * Para garantir uma implementação bem-sucedida, é essencial realizar backup regular dos dados, monitoramento  contínuo da integridade.
+
+Raid 0               // (striping) oferece aumento significativo no desempenho, mas nenhuma redundãncia de dados. é adequado paara aplicações de alto desempenho que exigem alta velocidade de leitura/gravação.
+                        (É a soma de todos os discos ou seja é o total se temos 6 discos de 200gb logo teremos 1.2tb) 
+
+Raid 1               // (Mirroring) fornece espelhamento de dados, garantindo alta disponibilidade e tolerância a falhas. É ideal para proteção de dados críticos e ambientes de servidor essenciais.
+                        (Ele espelha os dados dos discos ou seja se o total de discos entraga 1.2tb o mirror ira entregar apenas 600gb pois os outros 600gb são apenas uma copia exata dos outros 600gb)
+
+Raid 5               // Combina desempenho e redundância, distribuindo paridade de dados entre os discos. É uma escolha comum para servidores de arquivos e aplicações de banco de dados.
+
+
+Cálculo de Paridade ---------------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------------
+Exemplo de Cálculo:
+                     (D1) 10110010
+                     (D2) 11001100
+                    ---------------
+                     (P)  01111110
+
+XOR é o Ou exclusivo 
