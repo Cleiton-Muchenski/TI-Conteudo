@@ -37,12 +37,23 @@ Raid 1               // (Mirroring) fornece espelhamento de dados, garantindo al
 
 Raid 5               // Combina desempenho e redundância, distribuindo paridade de dados entre os discos. É uma escolha comum para servidores de arquivos e aplicações de banco de dados.
 
+Raid 10              // Oferece desempenho e redundância máximos, combinando espelhamento e striping. É ideal para aplicações críticas que exigem alta disponibilidade e desempenho superior.
+                        (Junta RAID 0 e RAID 1)
 
 Cálculo de Paridade ---------------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------------
-Exemplo de Cálculo:
+Exemplos de Cálculo:
+Ex 1 :______________________________
                      (D1) 10110010
                      (D2) 11001100
                     ---------------
                      (P)  01111110
+
+Ex 2 :______________________________
+                     (D1) 10110010
+                     (D2) 11001100
+                     (D3) 01101101
+                    ---------------
+                     (P)  00010011
+
 
 XOR é o Ou exclusivo 
