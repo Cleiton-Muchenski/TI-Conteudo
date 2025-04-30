@@ -41,6 +41,8 @@ Raid 10              // Oferece desempenho e redundância máximos, combinando e
                         (Junta RAID 0 e RAID 1)
 
 Cálculo de Paridade ---------------------------------------------------------------------------------------------//--------------------------------------------------------------------------------------------------------------
+XOR (É o "ou" exclusivo  ou seja se os dois numeros forem iguáis 0 se os numeros forem diferentas é 1)
+
 Exemplos de Cálculo:
 Ex 1 :______________________________
                      (D1) 10110010
@@ -56,4 +58,4 @@ Ex 2 :______________________________
                      (P)  00010011
 
 
-XOR é o Ou exclusivo 
+
