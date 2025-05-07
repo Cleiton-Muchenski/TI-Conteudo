@@ -40,7 +40,7 @@ LAN                  // (Local Area Network) É a rede local ou seja dispositivo
 MAN                  // (Metropolitan Area Network) Rede de região metropolitana, ela utiliza um cabo direto para conectar entre outras empresas/unidades se tornando cara e inviavel.
 SMTP                 // (Simple Mail Transfer Protocol)
 SWITCH               // Assim como HUB o SWITCH também é um dispositivo direcionador de rede/pacote porem a diferença é que o SWITCH ja sabe pra quem é pra enviar.
-TCP/IP               // Protocolo de comunicação de internet utilizado na internet e em muitas redes locais, que devide dados em pacotes e os transmite de forma eficiente
+TCP/IP               // (Transmission Control Protocol) Protocolo de comunicação de internet utilizado na internet e em muitas redes locais, que devide dados em pacotes e os transmite de forma eficiente
 WAN                  // (Wide Area Network) Já é a intert ou seja uma rede diretamente ligada a Internet
 WARP                 // É um pacote vazio que apenas sera usado para medir o PING/Latencia que uma rede leva para receber resposta da outra
 PING                 // É a latencia de uma ação/comunicação entre local e wan
